@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+.container {
+  height: 100vh;
+}
+.grid-container {
+  margin-right: 22%;
+  display: grid;
+  column-gap: 60px;
+  row-gap: 70px;
+  grid-template-columns: 420px 420px;
+  grid-template-rows: 220px 220px 220px;
+  /* background-color: #2196f3; */
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 12px #2424241a;
+  border: 1px solid #ececec;
+  border-radius: 6px;
+  opacity: 1;
+}
+.temp {
+  margin-left: 500px;
+}
+.form-info {
+  margin-left: 900px;
+  margin-top: -900px;
+  /* background-color: blueviolet; */
+}
+.container-2 {
+  margin-left: 27%;
+  /* background-color: darkseagreen; */
+  width: 48%;
+}
+.icons {
+  margin-left: 240px;
+  margin-top: -70px;
+}
+.form-control {
+  size: '1';
+}
+.main_div1 {
+  margin-top: 92px;
+  margin-left: 50px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 12px #2424241a;
+  border: 1px solid #ececec;
+  border-radius: 6px;
+  opacity: 1;
+  width: 380px;
+  height: 550px;
+}
+.main_div11 {
+  margin-top: -792px;
+  margin-left: 650px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 12px #2424241a;
+  border: 1px solid #ececec;
+  border-radius: 6px;
+  opacity: 1;
+  width: 380px;
+  height: 310px;
+}
+.card-text {
+  font-size: 20px;
+  font: normal normal medium 16px/32px Poppins;
+  text-align: center;
+  padding-top: 34px;
+}
+.login-text1 {
+  margin-top: 28px;
+  margin-left: 52px;
+}
+.form-control1 {
+  width: 250px;
+  height: 32px;
+  margin-top: 10px;
+}
+.btn12 {
+  width: 250px;
+  height: 45px;
+  margin-top: 40px;
+  margin-left: 66px;
+  background: transparent linear-gradient(100deg, #057451 0%, #00a333 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: 0px 5px 12px #021c1429;
+  opacity: 1;
+  cursor: pointer;
+}
+.Dname {
+  font: normal normal normal 14px/21px Poppins;
+  letter-spacing: 0px;
+  color: #3b3b3b;
+  opacity: 1;
+}
+.Dname1 {
+  font: normal normal medium 18px/32px Poppins;
+  font-size: 20px;
+  letter-spacing: 0.24px;
+  color: #000000;
+  opacity: 1;
+}
+.block-1 {
+  margin-top: 70px;
+}
+.block-2 {
+  margin-left: 270px;
+  margin-top: -40px;
+}
+.block-3 {
+  margin-top: 32px;
+}
+.block-4 {
+  margin-left: 270px;
+  margin-top: -45px;
+}
+.btn123 {
+  width: 150px;
+  height: 35px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background: transparent linear-gradient(100deg, #057451 0%, #00a333 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: 0px 5px 12px #021c1429;
+  opacity: 1;
+  cursor: pointer;
+}
+.btn1234 {
+  width: 150px;
+  height: 35px;
+  margin-top: 18px;
+  margin-left: 48px;
+  background: transparent linear-gradient(100deg, #057451 0%, #00a333 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: 0px 5px 12px #021c1429;
+  opacity: 1;
+  cursor: pointer;
+}

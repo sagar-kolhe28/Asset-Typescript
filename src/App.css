@@ -1,38 +1,137 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
 .App {
-  text-align: center;
+  width: 100vw;
+  height: 100vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  height: 100vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.row-0 {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  /* border: 2px solid red; */
+}
+.logo-0 {
+  margin-top: 1%;
+  margin-left: 5%;
+  cursor: pointer;
+}
+.logo-1 {
+  width: 255px;
+  height: 51px;
+  margin-top: 32px;
+  margin-left: 23px;
+}
+.rightimg1 {
+  margin-top: 0%;
+  margin-left: 75%;
+  /* width: 20%; */
+}
+
+.row-1 {
+  display: flex;
+  flex-direction: row;
+}
+.middleimg1 {
+  margin-left: 10%;
+  margin-top: -27%;
+  width: 950px;
+  height: 700px;
+
+  /* border: 2px solid blue; */
+}
+
+.row-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border: 2px solid yellowgreen; */
+}
+
+.container-box {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: white;
+  width: 600px;
+  height: 600px;
+  border: 1px solid white;
+  padding: 30px;
+  margin-top: -200px;
+  margin-left: 200px;
+  background: #fafafa 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 12px #24242433;
+  opacity: 1;
 }
-
-.App-link {
-  color: #61dafb;
+.line-1 {
+  margin-top: 12px;
+  font-size: 30px;
+  text-align: center;
+  /* font: normal normal normal 20px/32px Poppins; */
+  letter-spacing: 0.3px;
+  color: #000000;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.line-2 {
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+  font: normal normal medium 20px/32px Poppins;
+  letter-spacing: 0.3px;
+  color: #000000;
+}
+.login-text {
+  margin-top: 60px;
+  margin-left: 55px;
+  /* font-size: 20px; */
+  letter-spacing: 0.24px;
+  opacity: 1;
+  font: normal normal 300 22px/45px Poppins;
+}
+.username-box {
+  align-items: center;
+  margin-left: 55px;
+  margin-top: 0px;
+}
+.btn {
+  background: transparent linear-gradient(96deg, #00a333 0%, #057451 100%) 0% 0%
+    no-repeat padding-box;
+  box-shadow: 0px 5px 12px #021c1429;
+  opacity: 1;
+  color: #fafafa;
+  width: 450px;
+  height: 53px;
+  margin-left: 55px;
+  margin-top: 80px;
+  cursor: pointer;
+}
+.form-control {
+  width: 450px;
+  height: 50px;
+}
+.forgot-text {
+  margin-top: 15px;
+  margin-left: 340px;
+  cursor: pointer;
+}
+.btn-txt {
+  font-size: 20px;
+}
+input::placeholder {
+  padding-left: 18px;
+  color: darkgrey;
+  font-size: 20px;
+}
+input {
+  font-size: 20px;
+  padding-left: 18px;
+}
+.text-9 {
+  margin-left: 500px;
+  margin-top: 30px;
+}
+.headeroneach {
+  margin-left: 500px;
+  margin-top: -1000px;
 }
